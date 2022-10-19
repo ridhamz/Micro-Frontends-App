@@ -9,7 +9,6 @@ const generateClassName = createGenerateClassName({
 });
 
 export default function App({ history, onSignIn }) {
-  // app
   return (
     <div>
       <StylesProvider generateClassName={generateClassName}>
